@@ -52,6 +52,6 @@ function lowestStockQuantity(){
             index=i
         }
     }
-    console.log(`The Item with lowest stock is:${stockItems[index]} (${lowest})`)
+    return(`The Item with lowest stock is:${stockItems[index]} (${lowest})`)
 }
-lowestStockQuantity()
+console.log(lowestStockQuantity())
